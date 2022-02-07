@@ -1,15 +1,3 @@
-# Basic Sample Hardhat Project
+# Basic Blockchain API Backend
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+I am using the Ropsten testnet with Alchemy API as a network and provider. The token is called "SpinCoin (SPC)" and is a ERC20 coin. Its deployement address is 0x5322f0AA79e7e7d5Bb23F9A53E4656C4D880Ad15. You can visit ropsten testnet etherscan to see this token in action.
